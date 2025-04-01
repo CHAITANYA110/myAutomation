@@ -13,20 +13,28 @@ public class BaseClass {
 	WebDriver driver;
 	
 	@BeforeTest
-	public void start() throws InterruptedException
+	public void start()
 	{
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get("https://www.flipkart.com/");
-		Thread.sleep(2000);
-		driver.manage().window().maximize();
-		Thread.sleep(3000);
+		
+		
 	}
 	
 	@Test
-	public void myTest()
+	public void myTest() throws InterruptedException
 	{
+		driver.get("https://www.flipkart.com/");
+		Thread.sleep(2000);
 		System.out.println("My Test Pass");
+	}
+	
+	@Test
+	public void myTest2() throws InterruptedException
+	{
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		System.out.println("Flipkart opened up");
 	}
 	
 	@AfterTest
