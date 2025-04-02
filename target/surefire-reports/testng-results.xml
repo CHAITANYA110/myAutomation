@@ -1,93 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-02T18:12:08 IST" name="Suite" finished-at="2025-04-02T18:12:22 IST" duration-ms="14081">
+  <suite started-at="2025-04-03T00:47:36 IST" name="Suite" finished-at="2025-04-03T00:47:57 IST" duration-ms="20902">
     <groups>
     </groups>
-    <test started-at="2025-04-02T18:12:08 IST" name="Test" finished-at="2025-04-02T18:12:22 IST" duration-ms="14081">
+    <test started-at="2025-04-03T00:47:36 IST" name="Test" finished-at="2025-04-03T00:47:57 IST" duration-ms="20902">
       <class name="tests.FormFields">
-        <test-method is-config="true" signature="start()[pri:0, instance:tests.FormFields@49e53c76]" started-at="2025-04-02T18:12:08 IST" name="start" finished-at="2025-04-02T18:12:20 IST" duration-ms="12053" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.FormFields@2a3b5b47]" started-at="2025-04-03T00:47:36 IST" name="start" finished-at="2025-04-03T00:47:43 IST" duration-ms="7488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="submitFormOnlyMandatory()[pri:1, instance:tests.FormFields@49e53c76]" started-at="2025-04-02T18:12:20 IST" name="submitFormOnlyMandatory" description="TC_AN_FF_01" finished-at="2025-04-02T18:12:22 IST" duration-ms="1949" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (153, 1557)
-  (Session info: chrome=135.0.7049.41)
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a5581465d31cf6ab57734f2d5094cc61, clickElement {id=f.E64757145287D97131578F6E116E158A.d.67E97AD9A49A2E307979C3018BB0F28F.e.75}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\canan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52825/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (a5581465d31cf6ab57734f2d5094cc61)] -> id: submit-btn]
-Session ID: a5581465d31cf6ab57734f2d5094cc61]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (153, 1557)
-  (Session info: chrome=135.0.7049.41)
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a5581465d31cf6ab57734f2d5094cc61, clickElement {id=f.E64757145287D97131578F6E116E158A.d.67E97AD9A49A2E307979C3018BB0F28F.e.75}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\canan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52825/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (a5581465d31cf6ab57734f2d5094cc61)] -> id: submit-btn]
-Session ID: a5581465d31cf6ab57734f2d5094cc61
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy8.click(Unknown Source)
-at pages.FormFieldsPage.clickSubmit(FormFieldsPage.java:64)
-at tests.FormFields.submitFormOnlyMandatory(FormFields.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="submitFormOnlyMandatory()[pri:1, instance:tests.FormFields@2a3b5b47]" started-at="2025-04-03T00:47:44 IST" name="submitFormOnlyMandatory" description="TC_AN_FF_01" finished-at="2025-04-03T00:47:47 IST" duration-ms="3069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitFormOnlyMandatory -->
+        <test-method signature="submitFormAllFields()[pri:2, instance:tests.FormFields@2a3b5b47]" started-at="2025-04-03T00:47:47 IST" name="submitFormAllFields" description="TC_AN_FF_02" finished-at="2025-04-03T00:47:52 IST" duration-ms="4779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormAllFields -->
+        <test-method signature="submitFormWithoutMandatory()[pri:3, instance:tests.FormFields@2a3b5b47]" started-at="2025-04-03T00:47:52 IST" name="submitFormWithoutMandatory" description="TC_AN_FF_03" finished-at="2025-04-03T00:47:56 IST" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormWithoutMandatory -->
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.FormFields@2a3b5b47]" started-at="2025-04-03T00:47:57 IST" name="end" finished-at="2025-04-03T00:47:57 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- tests.FormFields -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

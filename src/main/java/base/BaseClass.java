@@ -20,19 +20,14 @@ public class BaseClass {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-		naviateURL(); //[class of befTest & naviateURL is same, thus when befTest is called, naviateURL can be call without object]
-	}
-	
-	public void naviateURL() throws InterruptedException
-	{
 		driver.get("https://practice-automation.com/");
-		Thread.sleep(2000);
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		
+
+		//naviateURL(); //[class of befTest & naviateURL is same, thus when befTest is called, naviateURL can be call without object]
 	}
 	
-	// @AfterTest
+	 @AfterTest
 	public void end()
 	{
 		driver.quit();

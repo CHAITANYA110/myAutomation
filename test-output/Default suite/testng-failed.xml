@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.FormFields">
         <methods>
-          <include name="submitForm"/>
+          <include name="submitFormAllFields"/>
           <include name="start"/>
         </methods>
       </class> <!-- tests.FormFields -->
