@@ -3,23 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Base.BaseClass">
+      <class name="tests.FormFields">
         <methods>
+          <include name="submitFormOnlyMandatory"/>
           <include name="start"/>
-          <include name="end"/>
-          <include name="myTest"/>
         </methods>
-      </class> <!-- Base.BaseClass -->
-      <class name="pack1.Class1Pack1">
-        <methods>
-          <include name="test1"/>
-        </methods>
-      </class> <!-- pack1.Class1Pack1 -->
-      <class name="pack2.Class1Pack2">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- pack2.Class1Pack2 -->
+      </class> <!-- tests.FormFields -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
