@@ -9,12 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24,116</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,788</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.FormFields</td><td><a href="#m0">submitFormAllFields</a></td><td rowspan="1">1743621264576</td><td rowspan="1">5905</td></tr><tr class="passedeven"><td><a href="#m1">submitFormOnlyMandatory</a></td><td rowspan="1">1743621261052</td><td rowspan="1">3518</td></tr><tr class="passedeven"><td><a href="#m2">submitFormWithoutMandatory</a></td><td rowspan="1">1743621270486</td><td rowspan="1">6078</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.FormFields</td><td><a href="#m0">myFail</a></td><td rowspan="1">1743783978382</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.FormFields</td><td><a href="#m1">skippedTest</a></td><td rowspan="1">1743783978310</td><td rowspan="1">70</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.FormFields</td><td><a href="#m2">submitFormAllFields</a></td><td rowspan="1">1743783964370</td><td rowspan="1">5917</td></tr><tr class="passedeven"><td><a href="#m3">submitFormOnlyMandatory</a></td><td rowspan="1">1743783960678</td><td rowspan="1">3668</td></tr><tr class="passedeven"><td><a href="#m4">submitFormWithoutMandatory</a></td><td rowspan="1">1743783970292</td><td rowspan="1">8015</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">tests.FormFields#submitFormAllFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.FormFields#submitFormOnlyMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.FormFields#submitFormWithoutMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">tests.FormFields#myFail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at tests.FormFields.myFail(FormFields.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.FormFields#skippedTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping this test case because of some condition.
+	at tests.FormFields.skippedTest(FormFields.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.FormFields#submitFormAllFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.FormFields#submitFormOnlyMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.FormFields#submitFormWithoutMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

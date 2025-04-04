@@ -1,7 +1,18 @@
 package tests;
 
+import static org.testng.Assert.fail;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
@@ -29,6 +40,7 @@ public class FormFields extends BaseClass{
     @Test(description="TC_AN_FF_02", priority =2)
     public void submitFormAllFields() throws InterruptedException
     {
+    	
     	FormFieldsPage ffp = new FormFieldsPage(driver);
     	ffp.navigateHome().navigateFormField().enterName().enterPassword()
     	.selectDrink().selectAutomationLikness().enterEmail()
@@ -48,6 +60,16 @@ public class FormFields extends BaseClass{
     	boolean mandatoryCheck = ffp.requiredAlert();
     	Assert.assertTrue(mandatoryCheck);
     }
+    
+    @Test(description="TC_AN_FF_03.2", priority =4)
+    public void skippedTest() {
+        System.out.println("Skipping this test intentionally...");
+        throw new SkipException("Skipping this test case because of some condition.");
+    }
 
-   
+    @Test(description="TC_AN_FF_03.3", priority =5)
+    public void myFail() throws InterruptedException, IOException
+    {
+    	Assert.fail();
+    }
 }
