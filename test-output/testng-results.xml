@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-04T21:55:45 IST" name="Suite" finished-at="2025-04-04T21:56:19 IST" duration-ms="33788">
+  <suite started-at="2025-04-05T02:01:30 IST" name="Suite" finished-at="2025-04-05T02:01:54 IST" duration-ms="24719">
     <groups>
     </groups>
-    <test started-at="2025-04-04T21:55:45 IST" name="Test" finished-at="2025-04-04T21:56:19 IST" duration-ms="33788">
+    <test started-at="2025-04-05T02:01:30 IST" name="Test" finished-at="2025-04-05T02:01:54 IST" duration-ms="24719">
       <class name="tests.FormFields">
-        <test-method is-config="true" signature="start()[pri:0, instance:tests.FormFields@7b98f307]" started-at="2025-04-04T21:55:46 IST" name="start" finished-at="2025-04-04T21:56:00 IST" duration-ms="14533" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.FormFields@65fb9ffc]" started-at="2025-04-05T02:01:30 IST" name="start" finished-at="2025-04-05T02:01:41 IST" duration-ms="11474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="submitFormOnlyMandatory()[pri:1, instance:tests.FormFields@7b98f307]" started-at="2025-04-04T21:56:00 IST" name="submitFormOnlyMandatory" description="TC_AN_FF_01" finished-at="2025-04-04T21:56:04 IST" duration-ms="3668" status="PASS">
+        <test-method signature="submitFormOnlyMandatory()[pri:1, instance:tests.FormFields@65fb9ffc]" started-at="2025-04-05T02:01:41 IST" name="submitFormOnlyMandatory" description="TC_AN_FF_01" finished-at="2025-04-05T02:01:44 IST" duration-ms="3089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitFormOnlyMandatory -->
-        <test-method signature="submitFormAllFields()[pri:2, instance:tests.FormFields@7b98f307]" started-at="2025-04-04T21:56:04 IST" name="submitFormAllFields" description="TC_AN_FF_02" finished-at="2025-04-04T21:56:10 IST" duration-ms="5917" status="PASS">
+        <test-method signature="submitFormAllFields()[pri:2, instance:tests.FormFields@65fb9ffc]" started-at="2025-04-05T02:01:45 IST" name="submitFormAllFields" description="TC_AN_FF_02" finished-at="2025-04-05T02:01:49 IST" duration-ms="4729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitFormAllFields -->
-        <test-method signature="submitFormWithoutMandatory()[pri:3, instance:tests.FormFields@7b98f307]" started-at="2025-04-04T21:56:10 IST" name="submitFormWithoutMandatory" description="TC_AN_FF_03" finished-at="2025-04-04T21:56:18 IST" duration-ms="8015" status="PASS">
+        <test-method signature="submitFormWithoutMandatory()[pri:3, instance:tests.FormFields@65fb9ffc]" started-at="2025-04-05T02:01:49 IST" name="submitFormWithoutMandatory" description="TC_AN_FF_03" finished-at="2025-04-05T02:01:54 IST" duration-ms="4534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitFormWithoutMandatory -->
-        <test-method signature="skippedTest()[pri:4, instance:tests.FormFields@7b98f307]" started-at="2025-04-04T21:56:18 IST" name="skippedTest" description="TC_AN_FF_03.2" finished-at="2025-04-04T21:56:18 IST" duration-ms="70" status="SKIP">
+        <test-method signature="skippedTest()[pri:4, instance:tests.FormFields@65fb9ffc]" started-at="2025-04-05T02:01:54 IST" name="skippedTest" description="TC_AN_FF_03.2" finished-at="2025-04-05T02:01:54 IST" duration-ms="17" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test case because of some condition.]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping this test case because of some condition.
-at tests.FormFields.skippedTest(FormFields.java:67)
+at tests.FormFields.skippedTest(FormFields.java:56)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -63,7 +63,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skippedTest -->
-        <test-method signature="myFail()[pri:5, instance:tests.FormFields@7b98f307]" started-at="2025-04-04T21:56:18 IST" name="myFail" description="TC_AN_FF_03.3" finished-at="2025-04-04T21:56:18 IST" duration-ms="1" status="FAIL">
+        <test-method signature="myFail()[pri:5, instance:tests.FormFields@65fb9ffc]" started-at="2025-04-05T02:01:54 IST" name="myFail" description="TC_AN_FF_03.3" finished-at="2025-04-05T02:01:54 IST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -72,7 +72,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.fail(Assert.java:106)
-at tests.FormFields.myFail(FormFields.java:73)
+at tests.FormFields.myFail(FormFields.java:62)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -105,7 +105,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFail -->
-        <test-method is-config="true" signature="end()[pri:0, instance:tests.FormFields@7b98f307]" started-at="2025-04-04T21:56:18 IST" name="end" finished-at="2025-04-04T21:56:19 IST" duration-ms="740" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.FormFields@65fb9ffc]" started-at="2025-04-05T02:01:54 IST" name="end" finished-at="2025-04-05T02:01:54 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

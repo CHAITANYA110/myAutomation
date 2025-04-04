@@ -169,7 +169,7 @@
                   </a> <!-- myFail -->
                   <span class="method-name">myFail</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at tests.FormFields.myFail(FormFields.java:73)
+	at tests.FormFields.myFail(FormFields.java:62)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -191,7 +191,7 @@
                   </a> <!-- skippedTest -->
                   <span class="method-name">skippedTest</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping this test case because of some condition.
-	at tests.FormFields.skippedTest(FormFields.java:67)
+	at tests.FormFields.skippedTest(FormFields.java:56)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -293,30 +293,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'submitFormWithoutMandatory')
+data.setCell(0, 1, 'submitFormAllFields')
 data.setCell(0, 2, 'tests.FormFields')
-data.setCell(0, 3, 8015);
+data.setCell(0, 3, 4729);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'submitFormAllFields')
+data.setCell(1, 1, 'submitFormWithoutMandatory')
 data.setCell(1, 2, 'tests.FormFields')
-data.setCell(1, 3, 5917);
+data.setCell(1, 3, 4534);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'submitFormOnlyMandatory')
 data.setCell(2, 2, 'tests.FormFields')
-data.setCell(2, 3, 3668);
+data.setCell(2, 3, 3089);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'skippedTest')
 data.setCell(3, 2, 'tests.FormFields')
-data.setCell(3, 3, 70);
+data.setCell(3, 3, 17);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'myFail')
 data.setCell(4, 2, 'tests.FormFields')
-data.setCell(4, 3, 1);
+data.setCell(4, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -349,29 +349,29 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">submitFormOnlyMandatory</span>
-                <span class="method-start">14589 ms</span>
+                <span class="method-start">11519 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">submitFormAllFields</span>
-                <span class="method-start">18281 ms</span>
+                <span class="method-start">14631 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">submitFormWithoutMandatory</span>
-                <span class="method-start">24203 ms</span>
+                <span class="method-start">19370 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">skippedTest</span>
-                <span class="method-start">32221 ms</span>
+                <span class="method-start">23915 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">myFail</span>
-                <span class="method-start">32293 ms</span>
+                <span class="method-start">23935 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">end</span>
-                <span class="method-start">32805 ms</span>
+                <span class="method-start">24172 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

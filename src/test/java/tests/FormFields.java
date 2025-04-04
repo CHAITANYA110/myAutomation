@@ -1,25 +1,14 @@
 package tests;
 
-import static org.testng.Assert.fail;
 
-import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
 import pages.FormFieldsPage;
-
-
-
 
 public class FormFields extends BaseClass{
     

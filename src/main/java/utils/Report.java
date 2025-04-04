@@ -23,6 +23,8 @@ public class Report implements ITestListener{
 	public ExtentReports er;
 	public ExtentTest et;
 	
+	String reportPath;
+	
 	public void onStart(ITestContext context)
 	{
 		
@@ -31,7 +33,7 @@ public class Report implements ITestListener{
 		
 		
 		//String reportPath = System.getProperty("user.dir") + "/reports/myReport.html";
-		String reportPath = System.getProperty("user.dir") + "/reports/" + reportName;
+		reportPath = System.getProperty("user.dir") + "/reports/" + reportName;
 		
 		esr = new ExtentSparkReporter(reportPath);
 		esr.config().setDocumentTitle("My Extent Report");
@@ -89,6 +91,7 @@ public class Report implements ITestListener{
 	public void onFinish(ITestContext context)
 	{
 		er.flush();
+		Email.sendEmailWithReport(reportPath);  // Send Report via Email
 	}
 }
 
