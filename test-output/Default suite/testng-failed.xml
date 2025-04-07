@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.FormFields">
+      <class name="tests.Popups">
         <methods>
-          <include name="submitFormAllFields"/>
+          <include name="verifyPromptPopupValueText"/>
+          <include name="end"/>
           <include name="start"/>
         </methods>
-      </class> <!-- tests.FormFields -->
+      </class> <!-- tests.Popups -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

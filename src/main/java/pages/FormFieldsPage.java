@@ -15,37 +15,37 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import base.BaseClass;
 
-public class FormFieldsPage extends BaseClass{
+public class FormFieldsPage{
 	
 	WebDriver driver;
 	
 	@FindBy(xpath="//a[@class='wp-block-button__link wp-element-button' and text()='Form Fields']")
-	WebElement formFieldsTab;
+	private WebElement formFieldsTab;
 	@FindBy(id="name-input")
-	WebElement name;
+	private WebElement name;
 	@FindBy(id="submit-btn")
-	WebElement submitBtn;
+	private WebElement submitBtn;
 	@FindBy(id="to-top")
-	WebElement upArrow;
+	private WebElement upArrow;
 	@FindBy(xpath="//input[@type='password']")
-	WebElement password;
+	private WebElement password;
 	
 	@FindBy(id="drink1")
-	WebElement drink1;
+	private WebElement drink1;
 	@FindBy(id="drink2")
-	WebElement drink2;
+	private WebElement drink2;
 	@FindBy(id="color4")
-	WebElement color;
+	private WebElement color;
 	@FindBy(id="automation")
-	WebElement automationLikness;
+	private WebElement automationLikness;
 	@FindBy(id="email")
-	WebElement email;
+	private WebElement email;
 	@FindBy(id="message")
-	WebElement message;
+	private WebElement message;
 	@FindBy(xpath="//*[contains(text(),'* Required')]")
-	WebElement required;
+	private WebElement required;
 	@FindBy(xpath="//*[@class='attachment-full size-full']")
-	WebElement home;
+	private WebElement home;
 	
 	
 	
@@ -57,7 +57,7 @@ public class FormFieldsPage extends BaseClass{
 	}
 	
 	
-	public FormFieldsPage navigateFormField()
+	public FormFieldsPage navigateFormFieldxxx()
 	{
 		formFieldsTab.click();
 		return this;

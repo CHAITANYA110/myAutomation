@@ -76,10 +76,7 @@ public class Report implements ITestListener{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-		
-		
+
 	}
 	
 	public void onTestSkipped(ITestResult result)

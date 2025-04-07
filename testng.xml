@@ -8,7 +8,9 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
+			<class name="tests.JsDelay" />
 			<class name="tests.FormFields" />
+			<class name="tests.Popups" />
 		</classes>
 	</test> <!--
 	Test -->
