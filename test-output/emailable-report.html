@@ -8,11 +8,28 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">26,078</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">63,571</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.Popups</td><td><a href="#m0">verifyTooltipText</a></td><td rowspan="1">1744041742913</td><td rowspan="1">3181</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.FormFields</td><td><a href="#m0">myFail</a></td><td rowspan="1">1744282534054</td><td rowspan="1">3</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.FormFields</td><td><a href="#m1">skippedTest</a></td><td rowspan="1">1744282534026</td><td rowspan="1">22</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.FormFields</td><td><a href="#m2">submitFormAllFields</a></td><td rowspan="1">1744282522207</td><td rowspan="1">5997</td></tr><tr class="passedeven"><td><a href="#m3">submitFormOnlyMandatory</a></td><td rowspan="1">1744282517706</td><td rowspan="1">4498</td></tr><tr class="passedeven"><td><a href="#m4">submitFormWithoutMandatory</a></td><td rowspan="1">1744282528213</td><td rowspan="1">5805</td></tr><tr class="passedodd"><td rowspan="1">tests.JsDelay</td><td><a href="#m5">verifyJsDelay</a></td><td rowspan="1">1744282497620</td><td rowspan="1">11961</td></tr><tr class="passedeven"><td rowspan="6">tests.Popups</td><td><a href="#m6">verifyAlertPopupText</a></td><td rowspan="1">1744282540498</td><td rowspan="1">2032</td></tr><tr class="passedeven"><td><a href="#m7">verifyConfirmPopupCancelText</a></td><td rowspan="1">1744282544157</td><td rowspan="1">1617</td></tr><tr class="passedeven"><td><a href="#m8">verifyConfirmPopupOkText</a></td><td rowspan="1">1744282542533</td><td rowspan="1">1622</td></tr><tr class="passedeven"><td><a href="#m9">verifyPromptPopupNoValueText</a></td><td rowspan="1">1744282545777</td><td rowspan="1">1526</td></tr><tr class="passedeven"><td><a href="#m10">verifyPromptPopupValueText</a></td><td rowspan="1">1744282547304</td><td rowspan="1">1915</td></tr><tr class="passedeven"><td><a href="#m11">verifyTooltipText</a></td><td rowspan="1">1744282549221</td><td rowspan="1">1612</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">tests.Popups#verifyTooltipText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">tests.FormFields#myFail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at tests.FormFields.myFail(FormFields.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.FormFields#skippedTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping this test case because of some condition.
+	at tests.FormFields.skippedTest(FormFields.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.FormFields#submitFormAllFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.FormFields#submitFormOnlyMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.FormFields#submitFormWithoutMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.JsDelay#verifyJsDelay</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.Popups#verifyAlertPopupText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.Popups#verifyConfirmPopupCancelText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.Popups#verifyConfirmPopupOkText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.Popups#verifyPromptPopupNoValueText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.Popups#verifyPromptPopupValueText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.Popups#verifyTooltipText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
