@@ -1,0 +1,27 @@
+16:24:57.594 [main] INFO  tests.JsDelay - =================== TEST SUITE START ===================
+16:24:57.637 [main] INFO  tests.JsDelay - [TEST STARTED : verifyJsDelay]
+16:25:09.580 [main] INFO  tests.JsDelay - [TEST SUCCESS : verifyJsDelay]
+16:25:11.856 [main] INFO  tests.JsDelay - =================== TEST SUITE END ===================
+16:25:17.705 [main] INFO  tests.FormFields - =================== TEST SUITE START ===================
+16:25:17.708 [main] INFO  tests.FormFields - [TEST STARTED : submitFormOnlyMandatory]
+16:25:22.181 [main] INFO  tests.FormFields - [TEST SUCCESS : submitFormOnlyMandatory]
+16:25:22.208 [main] INFO  tests.FormFields - [TEST STARTED : submitFormAllFields]
+16:25:28.203 [main] INFO  tests.FormFields - [TEST SUCCESS : submitFormAllFields]
+16:25:28.221 [main] INFO  tests.FormFields - [TEST STARTED : submitFormWithoutMandatory]
+16:25:34.018 [main] INFO  tests.FormFields - [TEST SUCCESS : submitFormWithoutMandatory]
+16:25:34.056 [main] INFO  tests.FormFields - [TEST STARTED : myFail]
+16:25:34.878 [main] INFO  tests.FormFields - =================== TEST SUITE END ===================
+16:25:40.496 [main] INFO  tests.Popups - =================== TEST SUITE START ===================
+16:25:40.503 [main] INFO  tests.Popups - [TEST STARTED : verifyAlertPopupText]
+16:25:42.529 [main] INFO  tests.Popups - [TEST SUCCESS : verifyAlertPopupText]
+16:25:42.535 [main] INFO  tests.Popups - [TEST STARTED : verifyConfirmPopupOkText]
+16:25:44.154 [main] INFO  tests.Popups - [TEST SUCCESS : verifyConfirmPopupOkText]
+16:25:44.158 [main] INFO  tests.Popups - [TEST STARTED : verifyConfirmPopupOkText]
+16:25:45.773 [main] INFO  tests.Popups - [TEST SUCCESS : verifyConfirmPopupOkText]
+16:25:45.780 [main] INFO  tests.Popups - [TEST STARTED : verifyConfirmPopupOkText]
+16:25:47.302 [main] INFO  tests.Popups - [TEST SUCCESS : verifyConfirmPopupOkText]
+16:25:47.306 [main] INFO  tests.Popups - [TEST STARTED : verifyConfirmPopupOkText]
+16:25:49.219 [main] INFO  tests.Popups - [TEST SUCCESS : verifyConfirmPopupOkText]
+16:25:49.222 [main] INFO  tests.Popups - [TEST STARTED : verifyConfirmPopupOkText]
+16:25:50.832 [main] INFO  tests.Popups - [TEST SUCCESS : verifyConfirmPopupOkText]
+16:25:51.128 [main] INFO  tests.Popups - =================== TEST SUITE END ===================
