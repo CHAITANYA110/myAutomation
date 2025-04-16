@@ -65,14 +65,14 @@ public class BaseClass {
 		
 		
 		log = LogManager.getLogger(this.getClass());
-		log.info("=================== TEST SUITE START ===================");
+		log.info("=================== TEST CLASS STARTED ===================");
 	}
 	
 	 @AfterClass
 	public void end()
 	{
 		driver.quit();
-		log.info("=================== TEST SUITE END ===================");
+		log.info("=================== TEST CLASS ENDED ===================");
 	}
 	 
 	 public static String screenCapture(String testName) throws IOException

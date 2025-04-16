@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.JsDelay">
+      <class name="tests.Calendar">
         <methods>
-          <include name="verifyJsDelay"/>
+          <include name="calTest"/>
           <include name="end"/>
           <include name="start"/>
         </methods>
-      </class> <!-- tests.JsDelay -->
+      </class> <!-- tests.Calendar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

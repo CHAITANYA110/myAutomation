@@ -1,0 +1,49 @@
+01:59:05.656 [main] INFO  tests.JsDelay - =================== TEST CLASS STARTED ===================
+01:59:05.703 [main] INFO  tests.JsDelay - [TEST STARTED : verifyJsDelay]
+01:59:17.740 [main] INFO  tests.JsDelay - [TEST SUCCESS : verifyJsDelay]
+01:59:18.191 [main] INFO  tests.JsDelay - =================== TEST CLASS ENDED ===================
+01:59:22.776 [main] INFO  tests.FormFields - =================== TEST CLASS STARTED ===================
+01:59:22.785 [main] INFO  tests.FormFields - [TEST STARTED : submitFormOnlyMandatory]
+01:59:26.561 [main] INFO  tests.FormFields - [TEST SUCCESS : submitFormOnlyMandatory]
+01:59:26.587 [main] INFO  tests.FormFields - [TEST STARTED : submitFormAllFields]
+01:59:32.196 [main] INFO  tests.FormFields - [TEST SUCCESS : submitFormAllFields]
+01:59:32.218 [main] INFO  tests.FormFields - [TEST STARTED : submitFormWithoutMandatory]
+01:59:37.090 [main] INFO  tests.FormFields - [TEST SUCCESS : submitFormWithoutMandatory]
+01:59:37.105 [main] INFO  tests.FormFields - [TEST STARTED : myFail]
+01:59:37.614 [main] INFO  tests.FormFields - =================== TEST CLASS ENDED ===================
+01:59:42.337 [main] INFO  tests.Popups - =================== TEST CLASS STARTED ===================
+01:59:42.343 [main] INFO  tests.Popups - [TEST STARTED : verifyAlertPopupText]
+01:59:43.851 [main] INFO  tests.Popups - [TEST SUCCESS : verifyAlertPopupText]
+01:59:43.858 [main] INFO  tests.Popups - [TEST STARTED : verifyConfirmPopupOkText]
+01:59:45.586 [main] INFO  tests.Popups - [TEST SUCCESS : verifyConfirmPopupOkText]
+01:59:45.591 [main] INFO  tests.Popups - [TEST STARTED : verifyConfirmPopupCancelText]
+01:59:47.055 [main] INFO  tests.Popups - [TEST SUCCESS : verifyConfirmPopupCancelText]
+01:59:47.062 [main] INFO  tests.Popups - [TEST STARTED : verifyPromptPopupNoValueText]
+01:59:48.789 [main] INFO  tests.Popups - [TEST SUCCESS : verifyPromptPopupNoValueText]
+01:59:48.793 [main] INFO  tests.Popups - [TEST STARTED : verifyPromptPopupValueText]
+01:59:50.234 [main] INFO  tests.Popups - [TEST SUCCESS : verifyPromptPopupValueText]
+01:59:50.238 [main] INFO  tests.Popups - [TEST STARTED : verifyTooltipText]
+01:59:51.795 [main] INFO  tests.Popups - [TEST SUCCESS : verifyTooltipText]
+01:59:52.024 [main] INFO  tests.Popups - =================== TEST CLASS ENDED ===================
+01:59:57.216 [main] INFO  tests.Slider - =================== TEST CLASS STARTED ===================
+01:59:57.222 [main] INFO  tests.Slider - [TEST STARTED : slideUsingHover]
+01:59:59.943 [main] INFO  tests.Slider - [TEST SUCCESS : slideUsingHover]
+01:59:59.950 [main] INFO  tests.Slider - [TEST STARTED : slideUsingDragDrop]
+02:00:02.647 [main] INFO  tests.Slider - [TEST SUCCESS : slideUsingDragDrop]
+02:00:02.924 [main] INFO  tests.Slider - =================== TEST CLASS ENDED ===================
+02:00:07.522 [main] INFO  tests.Calendar - =================== TEST CLASS STARTED ===================
+02:00:07.526 [main] INFO  tests.Calendar - [TEST STARTED : futureYearPrevMonth]
+02:00:13.218 [main] INFO  tests.Calendar - [TEST SUCCESS : futureYearPrevMonth]
+02:00:13.220 [main] INFO  tests.Calendar - [TEST STARTED : futureYearNextMonth]
+02:00:20.788 [main] INFO  tests.Calendar - [TEST SUCCESS : futureYearNextMonth]
+02:00:20.794 [main] INFO  tests.Calendar - [TEST STARTED : previousYearPrevMonth]
+02:00:27.178 [main] INFO  tests.Calendar - [TEST SUCCESS : previousYearPrevMonth]
+02:00:27.182 [main] INFO  tests.Calendar - [TEST STARTED : previousYearNextMonth]
+02:00:35.365 [main] INFO  tests.Calendar - [TEST SUCCESS : previousYearNextMonth]
+02:00:35.368 [main] INFO  tests.Calendar - [TEST STARTED : currentYearPrevMonth]
+02:00:38.965 [main] INFO  tests.Calendar - [TEST SUCCESS : currentYearPrevMonth]
+02:00:38.969 [main] INFO  tests.Calendar - [TEST STARTED : currentYearNextMonth]
+02:00:42.631 [main] INFO  tests.Calendar - [TEST SUCCESS : currentYearNextMonth]
+02:00:42.635 [main] INFO  tests.Calendar - [TEST STARTED : currentYearCurrentMonth]
+02:00:45.191 [main] INFO  tests.Calendar - [TEST SUCCESS : currentYearCurrentMonth]
+02:00:45.440 [main] INFO  tests.Calendar - =================== TEST CLASS ENDED ===================

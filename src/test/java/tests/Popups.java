@@ -38,7 +38,7 @@ public class Popups extends BaseClass{
 	@Test(description = "TC_AN_PP_03", priority = 3)
 	public void verifyConfirmPopupCancelText()
 	{
-		log.info("[TEST STARTED : verifyConfirmPopupOkText]");
+		log.info("[TEST STARTED : verifyConfirmPopupCancelText]");
 		
 		PopupsPage pp = new HomePage(driver).clickHome().navigatePopupPage();
 		
@@ -46,13 +46,13 @@ public class Popups extends BaseClass{
 		System.out.println(message);
 		Assert.assertEquals(message, "Cancel it is!");
 		
-		log.info("[TEST SUCCESS : verifyConfirmPopupOkText]");
+		log.info("[TEST SUCCESS : verifyConfirmPopupCancelText]");
 	}
 	
 	@Test(description = "TC_AN_PP_04", priority = 4)
 	public void verifyPromptPopupNoValueText()
 	{
-		log.info("[TEST STARTED : verifyConfirmPopupOkText]");
+		log.info("[TEST STARTED : verifyPromptPopupNoValueText]");
 		
 		PopupsPage pp = new HomePage(driver).clickHome().navigatePopupPage();
 		
@@ -60,13 +60,13 @@ public class Popups extends BaseClass{
 		System.out.println(message);
 		Assert.assertEquals(message, "Fine, be that way...");
 		
-		log.info("[TEST SUCCESS : verifyConfirmPopupOkText]");
+		log.info("[TEST SUCCESS : verifyPromptPopupNoValueText]");
 	}
 	
 	@Test(description = "TC_AN_PP_05", priority = 5)
 	public void verifyPromptPopupValueText()
 	{
-		log.info("[TEST STARTED : verifyConfirmPopupOkText]");
+		log.info("[TEST STARTED : verifyPromptPopupValueText]");
 		
 		String myVal = "NMDP";
 		PopupsPage pp = new HomePage(driver).clickHome().navigatePopupPage();
@@ -75,13 +75,13 @@ public class Popups extends BaseClass{
 		System.out.println(message);
 		Assert.assertEquals(message, "Nice to meet you, "+myVal+"!");
 		
-		log.info("[TEST SUCCESS : verifyConfirmPopupOkText]");
+		log.info("[TEST SUCCESS : verifyPromptPopupValueText]");
 	}
 	
 	@Test(description = "TC_AN_PP_06", priority = 6)
 	public void verifyTooltipText()
 	{
-		log.info("[TEST STARTED : verifyConfirmPopupOkText]");
+		log.info("[TEST STARTED : verifyTooltipText]");
 		
 		PopupsPage pp = new HomePage(driver).clickHome().navigatePopupPage();
 		
@@ -89,7 +89,7 @@ public class Popups extends BaseClass{
 		System.out.println(message);
 		Assert.assertEquals(message, "Cool text");
 		
-		log.info("[TEST SUCCESS : verifyConfirmPopupOkText]");
+		log.info("[TEST SUCCESS : verifyTooltipText]");
 	}
 	
 }

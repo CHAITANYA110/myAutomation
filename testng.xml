@@ -12,6 +12,8 @@
 			<class name="tests.JsDelay" />
 			<class name="tests.FormFields" />
 			<class name="tests.Popups" />
+			<class name="tests.Slider" />
+			<class name="tests.Calendar" />
 		</classes>
 	</test> <!--
 	Test -->

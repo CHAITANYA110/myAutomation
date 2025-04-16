@@ -1,12 +1,16 @@
 package tests;
 
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 
 import base.BaseClass;
 import pages.HomePage;
 import pages.JsDelayPage;
+import pages.SliderPage;
 
 public class JsDelay extends BaseClass{
 	
@@ -21,5 +25,6 @@ public class JsDelay extends BaseClass{
 		
 		log.info("[TEST SUCCESS : verifyJsDelay]");
 	}
+	
 
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="10" failed="1" skipped="1">
+<testng-results ignored="0" total="21" passed="19" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-10T16:24:47 IST" name="Suite" finished-at="2025-04-10T16:25:51 IST" duration-ms="63571">
+  <suite started-at="2025-04-17T01:58:57 IST" name="Suite" finished-at="2025-04-17T02:00:45 IST" duration-ms="107856">
     <groups>
     </groups>
-    <test started-at="2025-04-10T16:24:47 IST" name="Test" finished-at="2025-04-10T16:25:51 IST" duration-ms="63571">
+    <test started-at="2025-04-17T01:58:57 IST" name="Test" finished-at="2025-04-17T02:00:45 IST" duration-ms="107856">
       <class name="tests.FormFields">
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.FormFields@292b08d6]" started-at="2025-04-10T16:25:11 IST" name="start" finished-at="2025-04-10T16:25:17 IST" duration-ms="5844" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.FormFields@6025e1b6]" started-at="2025-04-17T01:59:18 IST" name="start" finished-at="2025-04-17T01:59:22 IST" duration-ms="4581" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="submitFormOnlyMandatory()[pri:1, instance:tests.FormFields@292b08d6]" started-at="2025-04-10T16:25:17 IST" name="submitFormOnlyMandatory" description="TC_AN_FF_01" finished-at="2025-04-10T16:25:22 IST" duration-ms="4498" status="PASS">
+        <test-method signature="submitFormOnlyMandatory()[pri:1, instance:tests.FormFields@6025e1b6]" started-at="2025-04-17T01:59:22 IST" name="submitFormOnlyMandatory" description="TC_AN_FF_01" finished-at="2025-04-17T01:59:26 IST" duration-ms="3804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitFormOnlyMandatory -->
-        <test-method signature="submitFormAllFields()[pri:2, instance:tests.FormFields@292b08d6]" started-at="2025-04-10T16:25:22 IST" name="submitFormAllFields" description="TC_AN_FF_02" finished-at="2025-04-10T16:25:28 IST" duration-ms="5997" status="PASS">
+        <test-method signature="submitFormAllFields()[pri:2, instance:tests.FormFields@6025e1b6]" started-at="2025-04-17T01:59:26 IST" name="submitFormAllFields" description="TC_AN_FF_02" finished-at="2025-04-17T01:59:32 IST" duration-ms="5612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitFormAllFields -->
-        <test-method signature="submitFormWithoutMandatory()[pri:3, instance:tests.FormFields@292b08d6]" started-at="2025-04-10T16:25:28 IST" name="submitFormWithoutMandatory" description="TC_AN_FF_03" finished-at="2025-04-10T16:25:34 IST" duration-ms="5805" status="PASS">
+        <test-method signature="submitFormWithoutMandatory()[pri:3, instance:tests.FormFields@6025e1b6]" started-at="2025-04-17T01:59:32 IST" name="submitFormWithoutMandatory" description="TC_AN_FF_03" finished-at="2025-04-17T01:59:37 IST" duration-ms="4878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitFormWithoutMandatory -->
-        <test-method signature="skippedTest()[pri:4, instance:tests.FormFields@292b08d6]" started-at="2025-04-10T16:25:34 IST" name="skippedTest" description="TC_AN_FF_03.2" finished-at="2025-04-10T16:25:34 IST" duration-ms="22" status="SKIP">
+        <test-method signature="skippedTest()[pri:4, instance:tests.FormFields@6025e1b6]" started-at="2025-04-17T01:59:37 IST" name="skippedTest" description="TC_AN_FF_03.2" finished-at="2025-04-17T01:59:37 IST" duration-ms="3" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test case because of some condition.]]>
@@ -70,7 +70,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skippedTest -->
-        <test-method signature="myFail()[pri:5, instance:tests.FormFields@292b08d6]" started-at="2025-04-10T16:25:34 IST" name="myFail" description="TC_AN_FF_03.3" finished-at="2025-04-10T16:25:34 IST" duration-ms="3" status="FAIL">
+        <test-method signature="myFail()[pri:5, instance:tests.FormFields@6025e1b6]" started-at="2025-04-17T01:59:37 IST" name="myFail" description="TC_AN_FF_03.3" finished-at="2025-04-17T01:59:37 IST" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -112,13 +112,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myFail -->
-        <test-method is-config="true" signature="end()[pri:0, instance:tests.FormFields@292b08d6]" started-at="2025-04-10T16:25:34 IST" name="end" finished-at="2025-04-10T16:25:34 IST" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.FormFields@6025e1b6]" started-at="2025-04-17T01:59:37 IST" name="end" finished-at="2025-04-17T01:59:37 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- tests.FormFields -->
       <class name="tests.Popups">
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:34 IST" name="start" finished-at="2025-04-10T16:25:40 IST" duration-ms="5618" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:37 IST" name="start" finished-at="2025-04-17T01:59:42 IST" duration-ms="4723" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,37 +129,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="verifyAlertPopupText()[pri:1, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:40 IST" name="verifyAlertPopupText" description="TC_AN_PP_01" finished-at="2025-04-10T16:25:42 IST" duration-ms="2032" status="PASS">
+        <test-method signature="verifyAlertPopupText()[pri:1, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:42 IST" name="verifyAlertPopupText" description="TC_AN_PP_01" finished-at="2025-04-17T01:59:43 IST" duration-ms="1513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAlertPopupText -->
-        <test-method signature="verifyConfirmPopupOkText()[pri:2, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:42 IST" name="verifyConfirmPopupOkText" description="TC_AN_PP_02" finished-at="2025-04-10T16:25:44 IST" duration-ms="1622" status="PASS">
+        <test-method signature="verifyConfirmPopupOkText()[pri:2, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:43 IST" name="verifyConfirmPopupOkText" description="TC_AN_PP_02" finished-at="2025-04-17T01:59:45 IST" duration-ms="1730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyConfirmPopupOkText -->
-        <test-method signature="verifyConfirmPopupCancelText()[pri:3, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:44 IST" name="verifyConfirmPopupCancelText" description="TC_AN_PP_03" finished-at="2025-04-10T16:25:45 IST" duration-ms="1617" status="PASS">
+        <test-method signature="verifyConfirmPopupCancelText()[pri:3, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:45 IST" name="verifyConfirmPopupCancelText" description="TC_AN_PP_03" finished-at="2025-04-17T01:59:47 IST" duration-ms="1467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyConfirmPopupCancelText -->
-        <test-method signature="verifyPromptPopupNoValueText()[pri:4, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:45 IST" name="verifyPromptPopupNoValueText" description="TC_AN_PP_04" finished-at="2025-04-10T16:25:47 IST" duration-ms="1526" status="PASS">
+        <test-method signature="verifyPromptPopupNoValueText()[pri:4, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:47 IST" name="verifyPromptPopupNoValueText" description="TC_AN_PP_04" finished-at="2025-04-17T01:59:48 IST" duration-ms="1730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPromptPopupNoValueText -->
-        <test-method signature="verifyPromptPopupValueText()[pri:5, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:47 IST" name="verifyPromptPopupValueText" description="TC_AN_PP_05" finished-at="2025-04-10T16:25:49 IST" duration-ms="1915" status="PASS">
+        <test-method signature="verifyPromptPopupValueText()[pri:5, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:48 IST" name="verifyPromptPopupValueText" description="TC_AN_PP_05" finished-at="2025-04-17T01:59:50 IST" duration-ms="1442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPromptPopupValueText -->
-        <test-method signature="verifyTooltipText()[pri:6, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:49 IST" name="verifyTooltipText" description="TC_AN_PP_06" finished-at="2025-04-10T16:25:50 IST" duration-ms="1612" status="PASS">
+        <test-method signature="verifyTooltipText()[pri:6, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:50 IST" name="verifyTooltipText" description="TC_AN_PP_06" finished-at="2025-04-17T01:59:51 IST" duration-ms="1558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTooltipText -->
-        <test-method is-config="true" signature="end()[pri:0, instance:tests.Popups@22555ebf]" started-at="2025-04-10T16:25:50 IST" name="end" finished-at="2025-04-10T16:25:51 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.Popups@22ff4249]" started-at="2025-04-17T01:59:51 IST" name="end" finished-at="2025-04-17T01:59:52 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- tests.Popups -->
       <class name="tests.JsDelay">
-        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.JsDelay@1d296da]" started-at="2025-04-10T16:24:48 IST" name="start" finished-at="2025-04-10T16:24:57 IST" duration-ms="9321" status="PASS">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.JsDelay@45752059]" started-at="2025-04-17T01:58:57 IST" name="start" finished-at="2025-04-17T01:59:05 IST" duration-ms="7791" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,15 +170,85 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="verifyJsDelay()[pri:1, instance:tests.JsDelay@1d296da]" started-at="2025-04-10T16:24:57 IST" name="verifyJsDelay" finished-at="2025-04-10T16:25:09 IST" duration-ms="11961" status="PASS">
+        <test-method signature="verifyJsDelay()[pri:1, instance:tests.JsDelay@45752059]" started-at="2025-04-17T01:59:05 IST" name="verifyJsDelay" finished-at="2025-04-17T01:59:17 IST" duration-ms="12053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyJsDelay -->
-        <test-method is-config="true" signature="end()[pri:0, instance:tests.JsDelay@1d296da]" started-at="2025-04-10T16:25:09 IST" name="end" finished-at="2025-04-10T16:25:11 IST" duration-ms="1956" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.JsDelay@45752059]" started-at="2025-04-17T01:59:17 IST" name="end" finished-at="2025-04-17T01:59:18 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- tests.JsDelay -->
+      <class name="tests.Calendar">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:02 IST" name="start" finished-at="2025-04-17T02:00:07 IST" duration-ms="4598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="futureYearPrevMonth()[pri:1, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:07 IST" name="futureYearPrevMonth" description="TC_AN_CF_01" finished-at="2025-04-17T02:00:13 IST" duration-ms="5694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- futureYearPrevMonth -->
+        <test-method signature="futureYearNextMonth()[pri:2, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:13 IST" name="futureYearNextMonth" description="TC_AN_CF_02" finished-at="2025-04-17T02:00:20 IST" duration-ms="7569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- futureYearNextMonth -->
+        <test-method signature="previousYearPrevMonth()[pri:3, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:20 IST" name="previousYearPrevMonth" description="TC_AN_CF_03" finished-at="2025-04-17T02:00:27 IST" duration-ms="6387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previousYearPrevMonth -->
+        <test-method signature="previousYearNextMonth()[pri:4, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:27 IST" name="previousYearNextMonth" description="TC_AN_CF_04" finished-at="2025-04-17T02:00:35 IST" duration-ms="8184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previousYearNextMonth -->
+        <test-method signature="currentYearPrevMonth()[pri:5, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:35 IST" name="currentYearPrevMonth" description="TC_AN_CF_05" finished-at="2025-04-17T02:00:38 IST" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentYearPrevMonth -->
+        <test-method signature="currentYearNextMonth()[pri:6, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:38 IST" name="currentYearNextMonth" description="TC_AN_CF_06" finished-at="2025-04-17T02:00:42 IST" duration-ms="3664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentYearNextMonth -->
+        <test-method signature="currentYearCurrentMonth()[pri:7, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:42 IST" name="currentYearCurrentMonth" description="TC_AN_CF_07" finished-at="2025-04-17T02:00:45 IST" duration-ms="2558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentYearCurrentMonth -->
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.Calendar@4c402120]" started-at="2025-04-17T02:00:45 IST" name="end" finished-at="2025-04-17T02:00:45 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- tests.Calendar -->
+      <class name="tests.Slider">
+        <test-method is-config="true" signature="start(java.lang.String)[pri:0, instance:tests.Slider@2d1ef81a]" started-at="2025-04-17T01:59:52 IST" name="start" finished-at="2025-04-17T01:59:57 IST" duration-ms="5191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="slideUsingHover()[pri:1, instance:tests.Slider@2d1ef81a]" started-at="2025-04-17T01:59:57 IST" name="slideUsingHover" description="TC_AN_S_01" finished-at="2025-04-17T01:59:59 IST" duration-ms="2727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slideUsingHover -->
+        <test-method signature="slideUsingDragDrop()[pri:2, instance:tests.Slider@2d1ef81a]" started-at="2025-04-17T01:59:59 IST" name="slideUsingDragDrop" description="TC_AN_S_02" finished-at="2025-04-17T02:00:02 IST" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slideUsingDragDrop -->
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.Slider@2d1ef81a]" started-at="2025-04-17T02:00:02 IST" name="end" finished-at="2025-04-17T02:00:02 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- tests.Slider -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 76.59 s <<< FAILURE! -- in TestSuite
-tests.FormFields.myFail -- Time elapsed: 0.605 s <<< FAILURE!
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 71.64 s <<< FAILURE! -- in TestSuite
+tests.FormFields.myFail -- Time elapsed: 0.298 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
-	at tests.FormFields.myFail(FormFields.java:60)
+	at tests.FormFields.myFail(FormFields.java:74)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)

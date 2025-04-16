@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,6 +23,12 @@ public class HomePage{
 	
 	@FindBy(xpath="//a[contains(text(),'Popups')]")
 	private WebElement popups;
+	
+	@FindBy(xpath="//a[contains(text(),'Sliders')]")
+	private WebElement slider;
+	
+	@FindBy(xpath="//a[contains(text(),'Calendars')]")
+	private WebElement calendar;
 	
 	public HomePage(WebDriver driver)
 	{
@@ -52,6 +59,24 @@ public class HomePage{
 	{
 		popups.click();
 		return new PopupsPage(driver);
+	}
+	
+	public SliderPage navigateSliderPage() throws InterruptedException
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView({block: 'center'});", slider);
+		Thread.sleep(1000);
+		slider.click();
+		return new SliderPage(driver);
+	}
+	
+	public CalendarPage navigateCalendarPage() throws InterruptedException
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView({block: 'center'});", calendar);
+		Thread.sleep(1000);
+		calendar.click();
+		return new CalendarPage(driver);
 	}
 	
 
